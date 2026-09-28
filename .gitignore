@@ -11,3 +11,6 @@ captures/
 out/
 .DS_Store
 Thumbs.db
+keystore.properties
+app/release/
+*.apk
