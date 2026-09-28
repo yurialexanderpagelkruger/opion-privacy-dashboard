@@ -19,9 +19,6 @@ android {
         includeInApk = false
         includeInBundle = false
     }
-    vcsInfo {
-        include = true
-    }
     buildTypes {
         release {
             isMinifyEnabled = true
