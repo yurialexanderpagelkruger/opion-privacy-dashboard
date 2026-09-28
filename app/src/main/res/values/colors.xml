@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="paper">#F4F1EA</color>
+    <color name="paper_dim">#EFECE6</color>
+    <color name="paper_sunken">#E7E3D8</color>
+    <color name="ink">#141414</color>
+    <color name="ink_soft">#3D3C39</color>
+    <color name="graphite">#6F6C63</color>
+    <color name="line">#C6C1B2</color>
+    <color name="accent">#B4531F</color>
+    <color name="ok">#2F6B4F</color>
+    <color name="warn">#8A6410</color>
+    <color name="bad">#8E2A21</color>
+    <color name="info">#4A5A6A</color>
+    <color name="console_bg">#141414</color>
+    <color name="console_text">#E6E2D8</color>
+    <color name="console_dim">#8B8880</color>
+    <color name="ripple_on_light">#22141414</color>
+    <color name="ripple_on_dark">#33F4F1EA</color>
+</resources>

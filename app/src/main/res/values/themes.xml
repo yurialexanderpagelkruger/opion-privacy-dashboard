@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Option" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/ink</item>
+        <item name="colorPrimaryDark">@color/paper</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@color/paper</item>
+        <item name="android:textColorPrimary">@color/ink</item>
+        <item name="android:textColorSecondary">@color/graphite</item>
+        <item name="android:textColorHint">@color/graphite</item>
+        <item name="colorControlNormal">@color/graphite</item>
+        <item name="colorControlActivated">@color/ink</item>
+        <item name="colorControlHighlight">@color/ripple_on_light</item>
+        <item name="android:statusBarColor">@color/paper</item>
+        <item name="android:navigationBarColor">@color/paper</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.Option.Splash" parent="Theme.Option">
+        <item name="android:windowBackground">@color/paper</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

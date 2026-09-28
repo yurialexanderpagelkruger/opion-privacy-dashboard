@@ -1,0 +1,28 @@
+Opion es un conjunto de herramientas de privacidad local para Android. Cinco utilidades que corren enteramente en tu dispositivo — sin root, sin red, sin permisos, sin telemetría.
+
+A diferencia de las apps "limpiadoras" que incluyen rastreadores y piden acceso amplio al almacenamiento, Opion no declara ningún permiso. Ni siquiera INTERNET. La app es físicamente incapaz de enviar tus datos a ningún lado, porque Android nunca le concede esa capacidad.
+
+QUÉ HACE
+
+1. <b>Sanitizador EXIF:</b> Elimina el GPS, la fecha, el modelo de cámara, los números de serie y cualquier otro metadato de una foto. Trabaja en sitio sobre el JPEG original — sin recodificar, sin pérdida de calidad.
+2. <b>Limpiador de enlaces:</b> Elimina parámetros de rastreo (utm_*, fbclid, igsh, si, gclid, mc_eid y más de 60) de cualquier URL, y quita los redireccionamientos de Instagram, TikTok, YouTube, Facebook y Google.
+3. <b>Borrador de portapapeles:</b> Un toque. El portapapeles se sobrescribe con ruido aleatorio y después se vacía, para que las contraseñas y tokens no queden en memoria.
+4. <b>Atajos del sistema:</b> Acceso directo a los paneles del sistema que importan: permisos, DNS privado, optimización de batería, autostart, accesibilidad, opciones de desarrollador y uso de datos.
+5. <b>Auditoría de seguridad:</b> Un toque ejecuta 13 verificaciones contra APIs públicas: bloqueo de pantalla, biometría, depuración USB, opciones de desarrollador, ADB inalámbrico, binarios de root, cifrado del almacenamiento, modo de DNS privado, servicios de accesibilidad, lectores de notificaciones, administradores de dispositivo, tiempo de apagado de pantalla y estado de SELinux.
+
+INTEGRACIÓN CON COMPARTIR
+
+Opion se registra como destino de compartir de Android. Desde cualquier app, toca Compartir y elige Opion.
+
+PRIVACIDAD POR DISEÑO
+
+- Sin permiso INTERNET en el manifest
+- Sin analíticas, sin telemetría, sin publicidad, sin SDKs de terceros
+- Sin cuentas, sin nube — todo corre en el dispositivo
+- Código abierto y auditable
+
+COMPATIBILIDAD
+
+Android 8.0 (API 26) en adelante. Inglés y español neutro.
+
+Creado por Yuri Alexander Pagel Krüger.

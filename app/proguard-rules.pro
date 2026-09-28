@@ -1,0 +1,2 @@
+-dontwarn org.apache.**
+-keepattributes SourceFile,LineNumberTable

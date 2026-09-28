@@ -1,0 +1,9 @@
+First release.
+
+- EXIF sanitizer: strip GPS, date and camera metadata from photos without re-encoding
+- Link cleaner: remove tracking parameters and unwrap redirects
+- Clipboard wiper: overwrite and clear the system clipboard
+- System shortcuts: direct access to privacy-relevant settings panels
+- Security audit: 13 local checks including screen lock, USB debugging, root and Private DNS
+
+No permissions. No network. No telemetry.

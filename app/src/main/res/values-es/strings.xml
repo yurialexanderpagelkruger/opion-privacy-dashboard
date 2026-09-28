@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Opion</string>
+    <string name="app_mark">OPION</string>
+    <string name="dash">—</string>
+    <string name="marker_ok">[OK]</string>
+
+    <string name="splash_credit">Desarrollado por Yuri Alexander Pagel Krüger</string>
+    <string name="splash_footer">local · sin red · sin permisos</string>
+
+    <string name="main_title">Panel de privacidad</string>
+    <string name="main_subtitle">Cinco herramientas locales. Ningún dato sale de tu dispositivo.</string>
+    <string name="console_label">SALIDA</string>
+    <string name="console_idle">› listo. esperando acción…</string>
+    <string name="section_modules">MÓDULOS</string>
+
+    <string name="btn_share_file">COMPARTIR COPIA LIMPIA</string>
+    <string name="btn_share_text">COMPARTIR TEXTO LIMPIO</string>
+    <string name="btn_copy">COPIAR RESULTADO</string>
+    <string name="btn_save">GUARDAR EN GALERÍA</string>
+    <string name="chooser_title">Enviar con…</string>
+    <string name="nothing_to_share">Todavía no hay nada para compartir.</string>
+    <string name="copied_ok">Resultado copiado al portapapeles.</string>
+
+    <string name="mod1_title">01 · SANITIZADOR EXIF</string>
+    <string name="mod1_body">Elimina el GPS, la fecha, el modelo de cámara y cualquier otro metadato de una foto. Sin recodificar: la calidad de la imagen no se toca.</string>
+    <string name="mod1_btn">ELEGIR IMAGEN Y LIMPIAR</string>
+
+    <string name="mod2_title">02 · LIMPIADOR DE ENLACES</string>
+    <string name="mod2_body">Elimina parámetros espía (utm_*, fbclid, igsh, si…) y quita los redireccionamientos de Instagram, TikTok, YouTube o MercadoLibre.</string>
+    <string name="mod2_hint">https://…  ·  www.…  ·  pega o comparte un enlace</string>
+    <string name="mod2_btn">LIMPIAR ENLACES</string>
+    <string name="mod2_nochange">No se encontraron parámetros de rastreo.</string>
+
+    <string name="mod3_title">03 · BORRADOR DE PORTAPAPELES</string>
+    <string name="mod3_body">Sobrescribe y vacía el portapapeles del sistema. Ninguna contraseña ni token queda en memoria.</string>
+    <string name="mod3_state_none">estado: vacío o sin acceso</string>
+    <string name="mod3_state_some">estado: %1$d caracteres en el portapapeles</string>
+    <string name="mod3_btn">VACIAR PORTAPAPELES</string>
+    <string name="mod3_done">Portapapeles vaciado.</string>
+    <string name="mod3_fail">No se pudo vaciar el portapapeles.</string>
+    <string name="mod3_privacy">Por diseño, la app nunca muestra el contenido, solo su tamaño.</string>
+
+    <string name="mod4_title">04 · ATAJOS DE AJUSTES CRÍTICOS</string>
+    <string name="mod4_body">Accesos directos a los paneles del sistema que importan: permisos, DNS privado, batería y más. Sin pedir nada extra.</string>
+    <string name="mod4_btn">ABRIR ATAJOS</string>
+
+    <string name="mod5_title">05 · AUDITORÍA DE SEGURIDAD</string>
+    <string name="mod5_body">Revisa el bloqueo de pantalla, la depuración USB, el root, el cifrado, el DNS privado, la accesibilidad y qué apps leen tus notificaciones.</string>
+    <string name="mod5_btn">EJECUTAR DIAGNÓSTICO</string>
+
+    <string name="shortcuts_title">ATAJOS DEL SISTEMA</string>
+    <string name="shortcuts_subtitle">Estos paneles los controla Android. Nosotros solo te llevamos al lugar exacto.</string>
+    <string name="shortcuts_footer">>> Si un panel no existe en tu fabricante, la app prueba automáticamente la ruta alternativa.</string>
+    <string name="shortcuts_open_failed">No se pudo abrir este panel en este dispositivo.</string>
+
+    <string name="footer_note">cero permisos · sin red · cero telemetría\n\nDesarrollado por Yuri Alexander Pagel Krüger</string>
+
+    <string name="sc_permissions">01  PERMISOS · CÁMARA · MICRÓFONO · UBICACIÓN</string>
+    <string name="sc_dns">02  DNS PRIVADO</string>
+    <string name="sc_battery">03  BATERÍA · SEGUNDO PLANO</string>
+    <string name="sc_autostart">04  AUTOSTART DEL FABRICANTE</string>
+    <string name="sc_devoptions">05  OPCIONES DE DESARROLLADOR · ADB</string>
+    <string name="sc_accessibility">06  SERVICIOS DE ACCESIBILIDAD</string>
+    <string name="sc_notifications">07  NOTIFICACIONES DE OPION</string>
+    <string name="sc_data">08  USO DE DATOS Y RED</string>
+    <string name="sc_security">09  SEGURIDAD Y BLOQUEO DE PANTALLA</string>
+    <string name="sc_location">10  UBICACIÓN DEL SISTEMA</string>
+
+    <string name="audit_lock_title">Bloqueo de pantalla</string>
+    <string name="audit_lock_ok">Activo. El dispositivo pide credencial al despertar.</string>
+    <string name="audit_lock_bad">SIN bloqueo. Cualquiera que tome el teléfono accede a todo. Configura un PIN o contraseña en Ajustes → Seguridad.</string>
+
+    <string name="audit_bio_title">Biometría</string>
+    <string name="audit_bio_ok">El hardware soporta huella o rostro.</string>
+    <string name="audit_bio_none">No se detectó hardware biométrico (no es un problema).</string>
+
+    <string name="audit_usb_title">Depuración USB</string>
+    <string name="audit_usb_bad">ENCENDIDA. Con acceso físico y una PC se pueden leer datos y ejecutar comandos. Apágala si no la estás usando.</string>
+    <string name="audit_usb_ok">Apagada.</string>
+
+    <string name="audit_dev_title">Opciones de desarrollador</string>
+    <string name="audit_dev_warn">Activadas. Superficie de ataque extra: revisa qué dejaste prendido.</string>
+    <string name="audit_dev_ok">Desactivadas.</string>
+
+    <string name="audit_wadb_title">ADB inalámbrico</string>
+    <string name="audit_wadb_na">No aplica en esta versión de Android.</string>
+    <string name="audit_wadb_bad">ENCENDIDO. Se puede depurar por red, sin cable. Muy riesgoso en redes públicas.</string>
+    <string name="audit_wadb_ok">Apagado.</string>
+
+    <string name="audit_root_title">Root</string>
+    <string name="audit_root_binaries">Binarios su detectados: %1$s</string>
+    <string name="audit_root_more"> (+%1$d más)</string>
+    <string name="audit_root_packages">Apps de gestión de root instaladas: %1$s</string>
+    <string name="audit_root_testkeys">Firma de build de desarrollo (test-keys).</string>
+    <string name="audit_root_clean">No se encontraron rastros de root.</string>
+
+    <string name="audit_enc_title">Cifrado de almacenamiento</string>
+    <string name="audit_enc_ok">Activo. Los datos en reposo están cifrados.</string>
+    <string name="audit_enc_bad">Soportado pero INACTIVO.</string>
+    <string name="audit_enc_unknown">No se pudo determinar el estado en este dispositivo.</string>
+
+    <string name="audit_dns_title">DNS privado</string>
+    <string name="audit_dns_hostname">Activo con servidor propio: %1$s</string>
+    <string name="audit_dns_unspecified">sin especificar</string>
+    <string name="audit_dns_opportunistic">Modo oportunista. Funciona, pero no garantiza que el DNS sea el que elegiste. Pon un hostname (AdGuard / NextDNS / Cloudflare) para bloquear tracking.</string>
+    <string name="audit_dns_off">APAGADO. Tu proveedor o la red ven cada dominio que visitas. Es el ajuste con mejor relación beneficio/esfuerzo.</string>
+    <string name="audit_dns_unknown">No se pudo leer el estado (requiere Android 9 o superior).</string>
+
+    <string name="audit_acc_title">Accesibilidad</string>
+    <string name="audit_acc_warn">%1$d servicio(s) activo(s). Un servicio de accesibilidad puede LEER toda la pantalla y simular toques: revisa que conozcas todos.</string>
+    <string name="audit_acc_ok">Ningún servicio de accesibilidad activo.</string>
+
+    <string name="audit_notif_title">Lectores de notificaciones</string>
+    <string name="audit_notif_warn">%1$d app(s) pueden leer TODAS tus notificaciones (códigos 2FA, mensajes). Revisa Ajustes → Notificaciones → Acceso a notificaciones.</string>
+    <string name="audit_notif_ok">Ninguna app puede leer tus notificaciones.</string>
+
+    <string name="audit_admin_title">Administradores de dispositivo</string>
+    <string name="audit_admin_warn">%1$d app(s) con permisos de administración. Pueden borrar datos o forzar bloqueos. Revisa Ajustes → Seguridad → Apps de administración.</string>
+    <string name="audit_admin_ok">Ninguna app con permisos de admin.</string>
+
+    <string name="audit_timeout_title">Tiempo de apagado de pantalla</string>
+    <string name="audit_timeout_unknown">No se pudo leer. Configura un tiempo de hasta 1 minuto.</string>
+    <string name="audit_timeout_ok">%1$ds. Bien.</string>
+    <string name="audit_timeout_warn">%1$ds. Dejar la pantalla encendida mucho tiempo facilita el acceso físico.</string>
+
+    <string name="audit_selinux_title">SELinux</string>
+    <string name="audit_selinux_ok">Modo enforcing. Es el estado seguro.</string>
+    <string name="audit_selinux_bad">Modo PERMISSIVE. Es una configuración insegura: el sistema no bloquea a los procesos aunque violen las reglas.</string>
+    <string name="audit_selinux_unknown">No se pudo determinar (es normal: el binario getenforce no siempre es accesible).</string>
+
+    <string name="con_share_image">› imagen recibida desde Compartir con…</string>
+    <string name="con_share_text">› texto/enlace recibido desde Compartir con…</string>
+    <string name="con_share_empty">✗ no llegó contenido utilizable en el intent.</string>
+    <string name="con_share_selected">› texto seleccionado recibido:</string>
+    <string name="con_processing">› leyendo metadatos de la imagen…</string>
+    <string name="con_err_unknown">error desconocido</string>
+    <string name="con_err_process">No se pudo procesar la imagen.</string>
+    <string name="con_clean_copy">✓ copia limpia: %1$s</string>
+    <string name="con_method">  método: %1$s</string>
+    <string name="con_method_strip">purgado EXIF in-place (calidad intacta)</string>
+    <string name="con_method_reencode">recodificado (EXIF eliminado al 100%)</string>
+    <string name="con_tags_removed">  tags EXIF eliminados: %1$d</string>
+    <string name="con_exif_block_dropped">  bloque EXIF completo descartado</string>
+    <string name="con_no_metadata">  la imagen ya venía sin metadatos</string>
+    <string name="con_orientation">  orientación visual: preservada</string>
+    <string name="con_note">  nota: %1$s</string>
+    <string name="con_paste_first">Pega un enlace primero.</string>
+    <string name="con_no_change">› sin cambios: %1$s</string>
+    <string name="con_urls_processed">✓ enlaces procesados: %1$d</string>
+    <string name="con_params_removed">  parámetros eliminados: %1$s</string>
+    <string name="con_result_header">── resultado ──</string>
+    <string name="con_clip_ok">✓ portapapeles sobrescrito y vaciado</string>
+    <string name="con_clip_fail">✗ no se pudo vaciar el portapapeles</string>
+    <string name="con_audit_running">› ejecutando diagnóstico de seguridad…</string>
+    <string name="con_audit_done">✓ diagnóstico listo · %1$d chequeos · %2$d fallas · %3$d advertencias</string>
+    <string name="con_gallery_needs_q">Guardar en galería requiere Android 10 o superior.</string>
+    <string name="con_gallery_ok">✓ copia limpia guardada en Pictures/Opion</string>
+    <string name="con_gallery_fail">✗ no se pudo guardar en galería</string>
+    <string name="con_gallery_toast_ok">Guardada en Pictures/Opion</string>
+    <string name="con_gallery_toast_fail">No se pudo guardar.</string>
+
+    <string name="exif_default_name">imagen.jpg</string>
+    <string name="exif_default_basename">imagen</string>
+    <string name="exif_err_open">No se pudo abrir la imagen seleccionada.</string>
+    <string name="exif_err_read">Error leyendo la imagen: %1$s</string>
+    <string name="exif_err_empty">El archivo está vacío.</string>
+    <string name="exif_err_format">Este formato de imagen no se pudo procesar.</string>
+    <string name="exif_err_share">No se pudo preparar el archivo para compartir.</string>
+    <string name="exif_note_reencode">Formato no JPEG: se recodificó para garantizar cero metadatos.</string>
+</resources>

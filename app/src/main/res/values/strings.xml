@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Opion</string>
+    <string name="app_mark">OPION</string>
+    <string name="dash">—</string>
+    <string name="marker_ok">[OK]</string>
+
+    <string name="splash_credit">Developed by Yuri Alexander Pagel Krüger</string>
+    <string name="splash_footer">local · no network · no permissions</string>
+
+    <string name="main_title">Privacy Dashboard</string>
+    <string name="main_subtitle">Five local tools. Nothing ever leaves your device.</string>
+    <string name="console_label">OUTPUT</string>
+    <string name="console_idle">› ready. waiting for input…</string>
+    <string name="section_modules">MODULES</string>
+
+    <string name="btn_share_file">SHARE CLEAN COPY</string>
+    <string name="btn_share_text">SHARE CLEAN TEXT</string>
+    <string name="btn_copy">COPY RESULT</string>
+    <string name="btn_save">SAVE TO GALLERY</string>
+    <string name="chooser_title">Send with…</string>
+    <string name="nothing_to_share">Nothing to share yet.</string>
+    <string name="copied_ok">Result copied to the clipboard.</string>
+
+    <string name="mod1_title">01 · EXIF SANITIZER</string>
+    <string name="mod1_body">Strips GPS, date, camera model and every other metadata tag from a photo. No re-encoding — image quality stays untouched.</string>
+    <string name="mod1_btn">PICK IMAGE AND CLEAN</string>
+
+    <string name="mod2_title">02 · LINK CLEANER</string>
+    <string name="mod2_body">Removes spy parameters (utm_*, fbclid, igsh, si…) and unwraps redirect links from Instagram, TikTok, YouTube, MercadoLibre.</string>
+    <string name="mod2_hint">https://…  ·  www.…  ·  paste or share a link</string>
+    <string name="mod2_btn">CLEAN LINKS</string>
+    <string name="mod2_nochange">No tracking parameters found.</string>
+
+    <string name="mod3_title">03 · CLIPBOARD WIPER</string>
+    <string name="mod3_body">Overwrites and clears the system clipboard. No password or token is left lingering in memory.</string>
+    <string name="mod3_state_none">status: empty or no access</string>
+    <string name="mod3_state_some">status: %1$d characters on the clipboard</string>
+    <string name="mod3_btn">WIPE CLIPBOARD</string>
+    <string name="mod3_done">Clipboard wiped.</string>
+    <string name="mod3_fail">Couldn\'t wipe the clipboard.</string>
+    <string name="mod3_privacy">By design, the app never shows the content — only its size.</string>
+
+    <string name="mod4_title">04 · CRITICAL SETTINGS SHORTCUTS</string>
+    <string name="mod4_body">Direct shortcuts into the system panels that matter: permissions, Private DNS, battery and more. Nothing beyond what you already have.</string>
+    <string name="mod4_btn">OPEN SHORTCUTS</string>
+
+    <string name="mod5_title">05 · SECURITY AUDIT</string>
+    <string name="mod5_body">Checks screen lock, USB debugging, root, encryption, Private DNS, accessibility and notification listeners.</string>
+    <string name="mod5_btn">RUN DIAGNOSTIC</string>
+
+    <string name="shortcuts_title">SYSTEM SHORTCUTS</string>
+    <string name="shortcuts_subtitle">Android owns these panels. We just take you to the exact spot.</string>
+    <string name="shortcuts_footer">>> If a panel doesn\'t exist on your manufacturer\'s build, the app automatically tries the fallback route.</string>
+    <string name="shortcuts_open_failed">Couldn\'t open this panel on this device.</string>
+
+    <string name="footer_note">zero permissions · no network · zero telemetry\n\nDeveloped by Yuri Alexander Pagel Krüger</string>
+
+    <string name="sc_permissions">01  PERMISSIONS · CAMERA · MIC · LOCATION</string>
+    <string name="sc_dns">02  PRIVATE DNS</string>
+    <string name="sc_battery">03  BATTERY · BACKGROUND</string>
+    <string name="sc_autostart">04  MANUFACTURER AUTOSTART</string>
+    <string name="sc_devoptions">05  DEVELOPER OPTIONS · ADB</string>
+    <string name="sc_accessibility">06  ACCESSIBILITY SERVICES</string>
+    <string name="sc_notifications">07  OPION NOTIFICATIONS</string>
+    <string name="sc_data">08  DATA USAGE &amp; NETWORK</string>
+    <string name="sc_security">09  SECURITY &amp; SCREEN LOCK</string>
+    <string name="sc_location">10  SYSTEM LOCATION</string>
+
+    <string name="audit_lock_title">Screen lock</string>
+    <string name="audit_lock_ok">Active. The device asks for credentials on wake.</string>
+    <string name="audit_lock_bad">NO screen lock. Anyone who picks up the phone gets full access. Set a PIN or password in Settings → Security.</string>
+
+    <string name="audit_bio_title">Biometrics</string>
+    <string name="audit_bio_ok">Hardware supports fingerprint or face unlock.</string>
+    <string name="audit_bio_none">No biometric hardware detected (not a problem).</string>
+
+    <string name="audit_usb_title">USB debugging</string>
+    <string name="audit_usb_bad">ON. With physical access and a PC, data can be read and commands executed. Turn it off when not in use.</string>
+    <string name="audit_usb_ok">Off.</string>
+
+    <string name="audit_dev_title">Developer options</string>
+    <string name="audit_dev_warn">Enabled. Extra attack surface — review what you left on.</string>
+    <string name="audit_dev_ok">Disabled.</string>
+
+    <string name="audit_wadb_title">Wireless ADB</string>
+    <string name="audit_wadb_na">Not applicable on this Android version.</string>
+    <string name="audit_wadb_bad">ON. Debugging over the network, no cable needed. Very risky on public networks.</string>
+    <string name="audit_wadb_ok">Off.</string>
+
+    <string name="audit_root_title">Root</string>
+    <string name="audit_root_binaries">Root binaries detected: %1$s</string>
+    <string name="audit_root_more"> (+%1$d more)</string>
+    <string name="audit_root_packages">Root manager apps installed: %1$s</string>
+    <string name="audit_root_testkeys">Development build signature (test-keys).</string>
+    <string name="audit_root_clean">No traces of root found.</string>
+
+    <string name="audit_enc_title">Storage encryption</string>
+    <string name="audit_enc_ok">Active. Data at rest is encrypted.</string>
+    <string name="audit_enc_bad">Supported but INACTIVE.</string>
+    <string name="audit_enc_unknown">Could not determine the status on this device.</string>
+
+    <string name="audit_dns_title">Private DNS</string>
+    <string name="audit_dns_hostname">Active with a custom server: %1$s</string>
+    <string name="audit_dns_unspecified">unspecified</string>
+    <string name="audit_dns_opportunistic">Opportunistic mode. It works, but does not guarantee the DNS server you picked. Set a hostname (AdGuard / NextDNS / Cloudflare) to block tracking.</string>
+    <string name="audit_dns_off">OFF. Your carrier or the network sees every domain you visit. This is the highest-impact setting you can change.</string>
+    <string name="audit_dns_unknown">Could not read the status (requires Android 9 or newer).</string>
+
+    <string name="audit_acc_title">Accessibility</string>
+    <string name="audit_acc_warn">%1$d service(s) active. An accessibility service can READ the whole screen and simulate taps: make sure you know all of them.</string>
+    <string name="audit_acc_ok">No accessibility services active.</string>
+
+    <string name="audit_notif_title">Notification listeners</string>
+    <string name="audit_notif_warn">%1$d app(s) can read ALL your notifications (2FA codes, messages). Check Settings → Notifications → Notification access.</string>
+    <string name="audit_notif_ok">No app can read your notifications.</string>
+
+    <string name="audit_admin_title">Device admins</string>
+    <string name="audit_admin_warn">%1$d app(s) hold administrative permissions. They can wipe data or force locks. Check Settings → Security → Device admin apps.</string>
+    <string name="audit_admin_ok">No app with admin permissions.</string>
+
+    <string name="audit_timeout_title">Screen-off timeout</string>
+    <string name="audit_timeout_unknown">Could not read it. Set a timeout of up to 1 minute.</string>
+    <string name="audit_timeout_ok">%1$ds. Good.</string>
+    <string name="audit_timeout_warn">%1$ds. Leaving the screen on for a long time makes physical access easier.</string>
+
+    <string name="audit_selinux_title">SELinux</string>
+    <string name="audit_selinux_ok">Enforcing mode. This is the secure state.</string>
+    <string name="audit_selinux_bad">PERMISSIVE mode. This is insecure: the system does not block processes even when they violate the rules.</string>
+    <string name="audit_selinux_unknown">Could not determine (this is normal: the getenforce binary is not always accessible).</string>
+
+    <string name="con_share_image">› image received from Share with…</string>
+    <string name="con_share_text">› text/link received from Share with…</string>
+    <string name="con_share_empty">✗ no usable content in the intent.</string>
+    <string name="con_share_selected">› selected text received:</string>
+    <string name="con_processing">› reading image metadata…</string>
+    <string name="con_err_unknown">unknown error</string>
+    <string name="con_err_process">Could not process the image.</string>
+    <string name="con_clean_copy">✓ clean copy: %1$s</string>
+    <string name="con_method">  method: %1$s</string>
+    <string name="con_method_strip">EXIF purged in-place (quality intact)</string>
+    <string name="con_method_reencode">re-encoded (metadata removed 100%)</string>
+    <string name="con_tags_removed">  EXIF tags removed: %1$d</string>
+    <string name="con_exif_block_dropped">  full EXIF block discarded</string>
+    <string name="con_no_metadata">  the image had no metadata to begin with</string>
+    <string name="con_orientation">  visual orientation: preserved</string>
+    <string name="con_note">  note: %1$s</string>
+    <string name="con_paste_first">Paste a link first.</string>
+    <string name="con_no_change">› no changes: %1$s</string>
+    <string name="con_urls_processed">✓ links processed: %1$d</string>
+    <string name="con_params_removed">  parameters removed: %1$s</string>
+    <string name="con_result_header">── result ──</string>
+    <string name="con_clip_ok">✓ clipboard overwritten and wiped</string>
+    <string name="con_clip_fail">✗ clipboard wipe failed</string>
+    <string name="con_audit_running">› running security diagnostic…</string>
+    <string name="con_audit_done">✓ diagnostic complete · %1$d checks · %2$d failures · %3$d warnings</string>
+    <string name="con_gallery_needs_q">Saving to gallery requires Android 10 or higher.</string>
+    <string name="con_gallery_ok">✓ clean copy saved to Pictures/Opion</string>
+    <string name="con_gallery_fail">✗ could not save to gallery</string>
+    <string name="con_gallery_toast_ok">Saved to Pictures/Opion</string>
+    <string name="con_gallery_toast_fail">Could not save.</string>
+
+    <string name="exif_default_name">image.jpg</string>
+    <string name="exif_default_basename">image</string>
+    <string name="exif_err_open">Could not open the selected image.</string>
+    <string name="exif_err_read">Error reading the image: %1$s</string>
+    <string name="exif_err_empty">The file is empty.</string>
+    <string name="exif_err_format">This image format could not be processed.</string>
+    <string name="exif_err_share">Could not prepare the file for sharing.</string>
+    <string name="exif_note_reencode">Non-JPEG format: re-encoded to guarantee zero metadata.</string>
+</resources>

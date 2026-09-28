@@ -1,0 +1,28 @@
+Opion is a local-first privacy toolkit for Android. Five focused tools that run entirely on your device — no root, no network, no permissions, no telemetry.
+
+Unlike "cleaner" apps that bundle trackers and demand broad storage access, Opion declares no permissions at all. Not even INTERNET. The app is physically incapable of sending your data anywhere, because Android never grants it the capability in the first place.
+
+WHAT IT DOES
+
+1. <b>EXIF Sanitizer:</b> Strip GPS coordinates, timestamps, camera model, serial numbers and every other metadata tag from a photo. Works in-place on the original JPEG stream — no re-encoding, no quality loss.
+2. <b>Link Cleaner:</b> Remove tracking parameters (utm_*, fbclid, igsh, si, gclid, mc_eid and 60+ more) from any URL, and unwrap redirect links from Instagram, TikTok, YouTube, Facebook and Google.
+3. <b>Clipboard Wiper:</b> One tap. The clipboard is overwritten with random noise and then cleared, so passwords and tokens stop lingering in memory.
+4. <b>System Shortcuts:</b> Direct access to the system panels that matter: permissions, Private DNS, battery optimization, autostart, accessibility, developer options and data usage.
+5. <b>Security Audit:</b> A single tap runs 13 checks against public APIs only: screen lock, biometrics, USB debugging, developer options, wireless ADB, root binaries, storage encryption, Private DNS mode, accessibility services, notification listeners, device admins, screen timeout and SELinux state.
+
+SHARE TARGET
+
+Opion registers as an Android share target. From any app, tap Share and select Opion.
+
+PRIVACY BY DESIGN
+
+- No INTERNET permission declared in the manifest
+- No analytics, no telemetry, no ads, no third-party SDKs
+- No accounts, no cloud — everything runs on-device
+- Fully open source and auditable
+
+COMPATIBILITY
+
+Android 8.0 (API 26) and above. English and neutral Spanish.
+
+Created by Yuri Alexander Pagel Krüger.

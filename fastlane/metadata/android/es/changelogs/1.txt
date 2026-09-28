@@ -1,0 +1,9 @@
+Primera versión.
+
+- Sanitizador EXIF: elimina GPS, fecha y metadatos de cámara sin recodificar
+- Limpiador de enlaces: quita parámetros de rastreo y redireccionamientos
+- Borrador de portapapeles: sobrescribe y vacía el portapapeles del sistema
+- Atajos del sistema: acceso directo a los paneles de privacidad
+- Auditoría de seguridad: 13 verificaciones locales incluyendo bloqueo, depuración USB, root y DNS privado
+
+Sin permisos. Sin red. Sin telemetría.
